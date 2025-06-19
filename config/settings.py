@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-jex_^s576i%e3cut1m_r%vjb*(_unxt2*q!d))7xnd7#q$p#^c
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['https://frontenc.onrender.com']
+ALLOWED_HOSTS = ['backend-ev66.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition
