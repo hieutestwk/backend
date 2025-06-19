@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-jex_^s576i%e3cut1m_r%vjb*(_unxt2*q!d))7xnd7#q$p#^c
 DEBUG = True
 
 #ALLOWED_HOSTS = []
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://frontenc.onrender.com']
 
 
 # Application definition
@@ -65,9 +65,9 @@ CSRF_COOKIE_SAMESITE = 'None'
 CSRF_COOKIE_SECURE = True
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
+    "https://frontenc.onrender.com",
 ]
-FRONTEND_URL = 'http://localhost:3000'
+FRONTEND_URL = 'https://frontenc.onrender.com'
 CSRF_TRUSTED_ORIGINS = [
     "https://juvenile-expo-went-law.trycloudflare.com"
 ]
